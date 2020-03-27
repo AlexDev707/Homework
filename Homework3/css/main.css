@@ -1,0 +1,61 @@
+.main {
+    margin: auto;
+    text-align: center;
+    width: 908px;
+}
+.section:nth-child(2n+2) {
+    margin-right: 0;
+}
+.section {
+    font-family: 'Playfair Display' , serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 422px;
+    margin-bottom: 130px;
+    display: inline-block;
+    margin-right: 60px;
+    text-align: left;
+     
+}
+
+.image {
+    width: 422px;
+    height: auto;
+    margin-bottom: 32px;
+}
+
+.title_5 {
+    font-family: 'Ubuntu' , sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    color: #B4AD9E;
+    margin-bottom: 28px;
+}
+
+
+.title_2 {
+     font-weight: 400;
+     font-size: 30px;
+     color: rgba(98, 98, 98, 255);
+     margin-bottom: 34px;
+}
+
+.text {
+    color: rgba(98, 98, 98, 255); 
+   
+}
+
+
+
+
+.button {
+    font-family:'Playfair Display' , serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(98, 98, 98, 255);
+    padding: 22px 34px;
+    margin-bottom: 70px;
+    border: 1px solid rgba(98, 98, 98, 255);
+    cursor: pointer;
+}
