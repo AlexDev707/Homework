@@ -8,7 +8,7 @@
     text-align: center;
 }
     
-.menu_item {
+.menu {
    display: inline-block;
    margin-right: 120px;
 
@@ -18,6 +18,6 @@
 .menu_item:hover {
     color: #25b4f5;
 }
-.menu_item:last-child {
+.menu:last-child {
     margin-right: 0;
 }
