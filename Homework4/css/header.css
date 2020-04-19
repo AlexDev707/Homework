@@ -1,0 +1,40 @@
+
+ 
+ .main {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 1163px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 120px;
+ }
+
+
+.mogo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #95E1D3;
+}   
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.a:hover {
+  color: #F38181;
+  padding-bottom: 11px;
+  border-bottom: 3px solid #F38181;
+}
+
+.a {
+    color: #95E1D3;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 3px solid transparent;
+    text-transform: uppercase;
+}
