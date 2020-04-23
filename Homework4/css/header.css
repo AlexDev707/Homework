@@ -1,6 +1,6 @@
 
  
- .main {
+ .header {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -19,19 +19,19 @@
     color: #95E1D3;
 }   
 
-.ul {
+.menu_list {
   display: flex;
   justify-content: space-between;
   width: 500px;
 }
 
-.a:hover {
+.menu_item_list:hover {
   color: #F38181;
   padding-bottom: 11px;
   border-bottom: 3px solid #F38181;
 }
 
-.a {
+.menu_item_list {
     color: #95E1D3;
     font-weight: 400;
     font-size: 14px;
