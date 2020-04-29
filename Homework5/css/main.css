@@ -1,0 +1,236 @@
+.main {
+    width: 1200px;
+    margin: auto;
+    padding-top: 173px;
+}
+
+
+.section1 {
+ font-family: 'Montserrat', sans-serif;  
+ text-align: center;
+ margin-bottom: 92px;
+
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 22px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.title2 {
+   text-transform: uppercase;
+   font-size: 30px;
+   font-weight: 700;
+   color: #333333;
+}
+
+.title2::after {
+    content: '';
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    display: block;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 66px;
+}
+
+
+.card_div {
+ text-align: left;
+ width: 330px;
+ margin-bottom: 100px;
+}
+
+.card_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.card_title::before {
+    content: '';
+    display: inline-block;
+    width: 34px;
+    height: 33px;
+    background-image: url(../image_icon/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 28px;
+}
+
+.card_text {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 61px;
+}
+
+.main_card_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img1::before {
+    background-image: url(../image_icon/image6.png);
+}
+
+.img2::before {
+    width: 37px;
+    height: 32px;
+    background-image: url(../image_icon/image3.png);
+}
+
+.img3::before {
+    background-image: url(../image_icon/image2.png);
+}
+
+.img4::before {
+    background-image: url(../image_icon/image4.png);
+}
+
+.img5::before {
+     background-image: url(../image_icon/image5.png);
+}
+
+
+
+
+.section2 {
+    font-family: 'Montserrat', sans-serif;  
+    text-align: center;
+}
+
+.title_1 {
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 22px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.title_2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.title_2::after {
+    content: '';
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    display: block;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 46px;
+}
+
+.text {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 91px;
+}
+
+.three_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_card {
+  width: 380px;
+}
+
+.hidden_box {
+  width: 380px;
+  height: 470px;
+  position: relative;
+}
+
+.team_photo {
+  width: 380px;
+  height: 470px;
+}
+
+.social_hidden {
+    font-size: 0;
+    width: 380px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.hidden_box:hover > .social_hidden {
+    opacity: 1;
+    transition: 0.3s linear;
+    transform: translate(-10px, -10px);
+}
+
+.hidden_box:hover > .team_photo {
+    box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    transition: 0.3s linear;
+    transform: translate(-10px, -10px);
+}
+
+.social_link {
+  width: 56px;
+  height: 56px;
+  display: inline-block;
+  margin-right: 1px;
+  background-color: #FCE38A;
+  position: relative;
+}
+
+.social_link:hover {
+    background-color: #95E1D3;
+}
+
+.social_link:last-child {
+    margin-right: 0;
+}
+
+.social_icon {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.team_name {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 31px;
+}
+
+.team_profi {
+   font-size: 15px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   color: #999999;
+   font-style: italic;
+   margin-bottom: 60px;
+}
