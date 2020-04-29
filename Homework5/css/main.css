@@ -61,7 +61,7 @@
     height: 33px;
     background-image: url(../image_icon/image1.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     vertical-align: top;
     margin-right: 28px;
 }
@@ -85,8 +85,6 @@
 }
 
 .img2::before {
-    width: 37px;
-    height: 32px;
     background-image: url(../image_icon/image3.png);
 }
 
