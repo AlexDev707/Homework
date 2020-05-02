@@ -1,0 +1,40 @@
+.header {
+  width: 980px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+
+
+.logo_item {
+    font-family: 'Kaushan Script', cursive;
+    color: #fed136;
+    font-size: 26px;
+}
+
+
+
+.menu_list {
+    width: 480px;
+    display: flex;
+     justify-content: space-between;
+}
+
+
+
+.menu_item_list {
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.menu_item_list:hover {
+    color:#fed136;
+}
