@@ -1,0 +1,92 @@
+.your_information {
+    width: 100%;
+   text-align: center;
+   background-color: #222222;
+   background-image: url(../icon/Map\ Image.png);
+   background-position: right; 
+   border-image-width: 614px; 
+   background-repeat: no-repeat;
+}
+
+.your_information_wrapper {
+    width: 941px;
+    margin: auto;
+}
+
+.your_information_title {
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+
+    font-size: 40px;
+    color: #fff;
+    padding-top: 111px;
+    padding-bottom: 22px;
+}
+
+.your_information_text {
+    color: #777777;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding-bottom: 74px;
+}
+
+.form {
+   
+}
+
+.your_information_list {
+    width: 941px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.your_information_link {
+    width: 456px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.input {
+    width: 456px;
+    height: 51px;
+    text-transform: uppercase;
+    color: #BBBBBB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 21px;
+}
+
+.input_message {
+  width: 456px;
+  height: 211px;
+  border-radius: 6px;
+  text-transform: uppercase;
+    color: #BBBBBB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 21px;
+    padding-top: 21px;
+}
+
+
+.input_send {
+  border: 0px solid;
+  background-color: #FED136;
+  width: 241px;
+  height: 67px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 6px;
+  margin-top: 29px;
+  margin-bottom: 120px;
+}

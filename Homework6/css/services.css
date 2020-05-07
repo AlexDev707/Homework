@@ -1,11 +1,10 @@
-.main {
-   width: 980px;
-   margin: auto; 
-}
+
 
 .services {
    width: 980px;
+   margin: auto;
    text-align: center;
+   margin-bottom: 120px;
 }
 
 .services_title {
@@ -26,11 +25,12 @@
 }
 
 .services_cards {
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .services_card_list {
-
+  width: 280px;
 }
 
 .services_img {
@@ -38,14 +38,25 @@
     height: 69px;
    border-radius: 50%;
    border: 3px solid #FED136;
-   margin-bottom: 50px;
-   padding: 16px 14px;
+   margin-bottom: 28px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   
 }
 
-.services_card_title {
 
+.services_card_title {
+   color: #222222;
+   font-family: 'Roboto Slab', serif;
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 18px;
 }
 
 .services_card_text {
-
+   font-size: 14px;
+   color: #777777;
+   font-family: 'Roboto Slab', serif;
+   font-weight: 400;
 }
