@@ -1,0 +1,150 @@
+.header {
+text-align: center;
+margin: auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+background-image: url(../images/Vector\ Smart\ Object3.png);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.menu_start {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.connection_us {
+    width: 151px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 115px;
+    margin-top: 19px;
+}
+
+
+
+.log_item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sign {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  display: inline-flex;
+  width: 91px;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign_item {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.title {
+  margin-bottom: 38px;
+}
+
+.title_item {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.menu_end {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title_holiday {
+    text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 19px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.text_holiday {
+  border: 0px solid #fff;
+  border-radius: 20px;
+  width: 281px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF4E50;
+  margin-bottom: 139px;
+}
+
+.text_holiday_item {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px)
+ {
+    .menu_start {
+       justify-content: space-between;
+       flex-direction: row-reverse;
+       align-items: baseline;
+       width: 669px;
+    }
+
+    .title {
+      margin-top: 16px;
+    }
+
+    .menu_end {
+      width: 503px;
+    }
+
+    .title_holiday {
+      font-size: 52px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .text {
+      font-size: 24px;
+      margin-bottom: 33px;
+    }
+
+    .text_holiday {
+      margin-bottom: 234px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+  .menu_start {
+    width: 939px;
+  }
+}
