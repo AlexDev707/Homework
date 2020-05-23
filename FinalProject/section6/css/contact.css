@@ -184,7 +184,7 @@
 @media screen and (min-width: 768px) {
 
    .contact__wrapper {
-       background-size: 1440px;
+       background-size: 768px;
    }
 
     .contact__title {
@@ -215,6 +215,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+    .contact__wrapper {
+        background-size: 1024px;
+    }
+ 
     .contact__form {
        display: flex;
        flex-direction: column;
@@ -222,7 +227,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .contact__without-title {
         display: flex;
         flex-direction: row-reverse;
@@ -230,7 +235,7 @@
     }
 
     .contact__wrapper {
-        background-size: 1440px;
+        background-size: 1200px;
     }
 
 
