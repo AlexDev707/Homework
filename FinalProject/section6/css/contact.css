@@ -8,7 +8,7 @@
    background-image: url(../image/contact_img.png);
    background-repeat: no-repeat;
    background-position: center;
-   background-size: 100%;
+   background-size: cover;
 }
 
 .contact__title {
@@ -44,6 +44,8 @@
 
 
 
+
+
 .contact__form-input {
    width: 271px;
    height: 45px;
@@ -55,6 +57,12 @@
    color: #C1C1C1;
    border-radius: 5px;
    border: none;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact__form-textarea {
@@ -181,22 +189,24 @@
     padding-bottom: 25px;
 }
 
-@media screen and (min-width: 768px) {
+.contact__form-twoinput {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 275px;
+    text-align: center;
+    margin: auto;
+}
 
-   .contact__wrapper {
-       background-size: 768px;
-   }
+@media screen and (min-width: 768px) {
 
     .contact__title {
     font-size: 28px;
 }
 
 .contact__form-twoinput {
-    display: flex;
-    justify-content: space-between;
     width: 580px;
-    text-align: center;
-    margin: auto;
+    max-width: 580px;
 }
 
 .contact__form-textarea {
@@ -214,18 +224,15 @@
 }
 }
 
-@media screen and (min-width: 1024px) {
-
-    .contact__wrapper {
-        background-size: 1024px;
-    }
+/* @media screen and (min-width: 1024px) {
  
     .contact__form {
        display: flex;
        flex-direction: column;
        align-items: center;
     }
-}
+} */
+
 
 @media screen and (min-width: 1200px) {
     .contact__without-title {
@@ -233,10 +240,7 @@
         flex-direction: row-reverse;
         justify-content: space-between;
     }
-
-    .contact__wrapper {
-        background-size: 1200px;
-    }
+    
 
 
     .contact__form {
