@@ -19,7 +19,7 @@ background-repeat: no-repeat;
 
 
 .connection_us {
-    width: 151px;
+    width: 195px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,15 @@ background-repeat: no-repeat;
     margin-top: 19px;
 }
 
+.log {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  display: inline-flex;
+  width: 91px;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+}
 
 
 .log_item {
