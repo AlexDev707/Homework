@@ -1,0 +1,286 @@
+.introduction{
+    position: relative;
+}
+
+.intoduction_div{
+    width: 100%;
+    background-image: url("../img/background_mobile.png");
+    background-size: cover;
+    background-position-x: 1px;
+}
+
+.header{
+    height: 80px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #fff;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.header_name{
+    margin: 26px 13px;
+    text-align: center;
+}
+
+.header_name-text{
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #330cf4;
+    cursor: pointer;
+}
+
+.header_menu{
+    padding: 20px 13px;
+    text-align: center;
+    position: relative;
+}
+
+.menu_button{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.menu_button:hover{
+    color: #330cf4;
+}
+
+.menu_list{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+}
+
+.header_menu:hover > .menu_list{
+    display: block;
+    z-index: 2;
+}
+
+.menu_list-item{
+    width: 88px;
+    background-color: #fff;
+}
+
+.menu_list-item-link{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    background-color: #fff;
+    color: #969596;
+    cursor: pointer;
+}
+
+.menu_list-item-link:hover{
+    color: #330cf4;
+}
+
+.intriduction_div-title{
+    display: inline-block;
+    margin: 90px 13px 0;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    line-height: 32px;
+}
+
+.intriduction_div-subtitle{
+    display: inline-block;
+    margin: 0 32px 0 13px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    line-height: 26px;
+}
+
+.intoduction_div-list{   
+    display: block;
+    margin: 30px 20px 0;
+    flex-direction: column;
+}
+
+.intoduction_div_list-item{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    line-height: 33px;
+    list-style: "❯" outside;
+    padding-left: 16px;
+}
+
+.intoduction_link{
+    display: inline-flex;
+    width: 200px;
+    height: 48px;
+    background-color: #330cf4;
+    border-radius: 5px;
+    margin: 30px 0 104px 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.intoduction_link-text{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    margin: 6px 7px;
+    text-align: center;
+}
+
+.intoduction_link-image{
+    width: 36px;
+    height: 36px;
+    margin: 6px 7px;
+    vertical-align: middle;
+}
+
+.intoduction_phone{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .intoduction_div{
+        background-image: url("../img/background_tablet.png");
+    }
+
+    .header_name{
+        margin: 22px 30px;
+    }
+    
+    .header_name-text{
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .header_menu{
+        margin: 20px 30px;
+        padding: 0;
+        width: 450px;
+    }
+
+    .menu_button{
+        display: none;
+    }
+
+    .header_menu:hover > .menu_list{
+        display: flex;
+    }
+
+    .menu_list{
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu_list-item{
+        width: auto;
+    }
+
+    .menu_list-item-link{
+        text-transform: uppercase;
+        line-height: 40px;
+    }
+    
+    .menu_list-item-link:hover{
+        color: #282528;
+    }
+    
+    .intriduction_div-title{
+        margin: 150px 28px 0;
+        font-size: 42px;
+        font-weight: 800;
+        line-height: 50px;
+    }
+    
+    .intriduction_div-subtitle{
+        display: flex;
+        margin: 0 28px;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    .intoduction_div-list{   
+        margin: 50px 30px 0;
+    }
+
+    .intoduction_link{
+        margin: 80px 50px 165px;
+        transform: translateX(0);
+    }
+    
+    .intoduction_phone{
+        display: inline;
+        position: absolute;
+        right: 134px;
+        top: 430px;
+        max-height: 424px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .intoduction_div{
+        background-image: url("../img/background_desktop.png");
+    }
+
+    .header_name{
+        margin: 22px 48px;
+    }
+    
+    .header_name-text{
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .menu_list-item-link{
+        font-size: 13px;
+    }
+
+    .div_wrapper-title{
+        top: 270px;
+        margin: 0 50px;
+    }
+    
+    .intriduction_div-title{
+        font-size: 47px;
+        line-height: 50px;
+    }
+    
+    .intriduction_div-subtitle{
+        display: flex;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .intoduction_div-list{   
+        top: 396px;
+        margin-left: 58px;
+    }
+
+    .intoduction_link_div{
+        top: 560px;
+        left: 68px;
+    }
+    
+    .intoduction_phone{
+        display: inline-flex;
+        position: absolute;
+        right: 120px;
+        top: 220px;
+        max-height: 663px;
+    }
+}

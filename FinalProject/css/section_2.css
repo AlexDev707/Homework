@@ -1,0 +1,245 @@
+.features {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.features__wrapper {
+    padding: 35px 16px;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #330cf4;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.title::before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: #babdc1;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.title::after {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: #babdc1;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(40, 37, 40, 1);
+}
+
+.cards_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-top: 40px;
+}
+
+.card1 {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.img1 {
+    min-width: 29px;
+    height: 29px;
+    margin-right: 30px;
+}
+
+.card__title1 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card__text1 {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Baloo 2', cursive;
+}
+
+.card2 {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.img2 {
+    min-width: 24px;
+    height: 29px;
+    margin-right: 30px;
+}
+
+.card--cont12 {
+    width: 227px;
+}
+
+.card__title2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card__text2 {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Baloo 2', cursive;
+}
+
+.phone {
+    display: none;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+    transition: 0.2s linear;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    transition: 0.2s linear;
+}
+
+@media screen and (min-width: 768px) {
+
+    .features__wrapper {
+        padding: 0 32px;
+        margin-top: 65px;
+    }
+
+    .title {
+        text-align: center;
+        margin: 0 auto 56px;
+        font-size: 28px;
+        margin-top: 120px;
+    }
+
+    .paragraph {
+      width: 628px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .card1 {
+        width: 310px;
+    }
+
+    .cards_container {
+        height: 528px;
+        margin-bottom: 84px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .img1 {
+        margin-left: 32px;
+        margin-right: 30px;
+    }
+  
+    .card--cont11 {
+        width: 237px;
+    }
+    
+    .card2 {
+        width: 310px;
+    }
+
+    .img2 {
+        margin-left: 32px;
+        margin-right: 30px;
+        height: 28px;
+    }
+  
+    .card--cont12 {
+        width: 237px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .card2:hover {
+        transform: scale(1.1);
+        transition: 0.2s linear;
+        border-left: 4px solid blue;
+        height: 90px;
+    }
+    
+    .card1:hover {
+        transform: scale(1.1);
+        transition: 0.2s linear;
+        border-left: 4px solid blue;
+        height: 90px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .title {
+        text-align: center;
+        margin-bottom: 93px;
+    }
+
+    .paragraph {
+        width: 931px;
+        text-align: center;
+        font-size: 18px;
+        margin: 0 auto;
+        
+    }
+
+    .phone {
+        display: block;
+        margin: 0 auto;
+        max-height: 588px;
+    }
+
+    .cards_container {
+        flex-direction: column;
+    }
+
+    .card2 {
+        margin: 0 auto;
+    }
+
+    .card1 {
+        margin: 0 auto;
+    }
+
+    .card2:hover {
+        transform: scale(1.1);
+        transition: 0.2s linear;
+        border-left: 4px solid blue;
+    }
+    
+    .card1:hover {
+        transform: scale(1);
+        transition: 0.2s linear;
+        border-left: 4px solid blue;
+    }
+}
+
