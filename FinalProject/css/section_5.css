@@ -96,7 +96,6 @@
 
 .feedback__name {
   position: relative;
-  /* transform: translate(0%, 100%); */
   top: 0px;
   padding-bottom: 0;
   font-family: "Open Sans", sans-serif;
@@ -226,6 +225,11 @@ label:hover {
 }
 
 @media screen and (min-width: 768px) {
+
+  .feedback__title--wrapper {
+    font-size: 25px;
+  }
+
   .feedback__title--wrapper::before {
     display: none;
   }
