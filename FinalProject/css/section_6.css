@@ -225,6 +225,11 @@
  }
  
  @media screen and (min-width: 1200px) {
+
+     .contact {
+        padding: 0 32px;
+     }
+
      .contact__without-title {
          display: flex;
          flex-direction: row-reverse;

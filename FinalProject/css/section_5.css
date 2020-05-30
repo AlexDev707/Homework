@@ -17,9 +17,10 @@
 .feedback__title--wrapper {
   display: block;
   text-align: center;
+  font-size: 18px;
 }
 
-.feedback__title--wrapper:before {
+ .feedback__title--wrapper:before {
   content: "";
   display: inline-block;
   width: 60px;
@@ -37,7 +38,7 @@
   background-color: #babdc1;
   vertical-align: middle;
   margin-left: 21px;
-}
+} 
 
 .feedback__slider input[type="radio"] {
   display: none;
